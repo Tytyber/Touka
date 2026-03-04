@@ -1,0 +1,21 @@
+# Discord
+discord.py>=2.3.2
+
+# Discord voice receiving
+discord-ext-voice-recv>=0.5.0
+
+# Асинхронные утилиты
+asyncio
+
+# Whisper STT
+faster-whisper>=1.6.0
+
+# PyTorch CPU (для Faster-Whisper)
+torch>=2.2.0+cpu
+torchaudio>=2.2.0+cpu
+
+# Numpy для конвертации PCM
+numpy>=1.26.0
+
+# Опционально для Windows: ffmpeg-binaries (иногда нужен для PATH)
+ffmpeg-python>=0.3.1
